@@ -1,0 +1,73 @@
+body{
+    background: #fff9f5;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+nav li{
+    position: relative;
+    top: 10px;
+    left: 42%;
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a{
+    
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: rosybrown;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(253, 142, 160);
+    font-weight: lighter;
+}
+
+#banner{
+    position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.principal, .certificados{
+    background: rgb(255, 249, 241);
+    padding: 20px;
+}
+.texto-centralizado{
+    text-align: center;
+    font-size: 25px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font: bold;
+    font-size: 35px;
+}
+.contato{
+    width: 940px;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+.contato li{
+    display: inline-block;
+    
+}
+.contato img{
+    max-width:200px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: rosybrown;
+    font-size: 15px;
+    margin: 40px 0 0;
+}
